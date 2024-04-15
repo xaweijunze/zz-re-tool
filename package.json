@@ -1,6 +1,6 @@
 {
   "name": "ww-zzhooks",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A react hooks library",
   "license": "MIT",
   "module": "dist/index.js",

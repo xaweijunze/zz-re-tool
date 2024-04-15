@@ -1,8 +1,8 @@
-## useSearchParams
+# useSearchParams
 
 管理查询参数的 Hook.
 
-### 代码演示
+## 代码演示
 
 ```js
 import React from 'react'
@@ -24,19 +24,19 @@ function App() {
 export default App;
 ```
 
-### API
+## API
 
 ```js
 const [params, { set, assign, reset, setDefault }] = useSearchParams(initialParams)
 ```
 
-### params
+## params
 
 | 参数         | 说明         | 类型 |
 | ------------ | ------------ | ---- |
 | initialValue | 静态默认参数 | any  |
 
-### Result
+## Result
 
 | 参数       | 说明             | 类型     |
 | ---------- | ---------------- | -------- |

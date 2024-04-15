@@ -1,1 +1,1 @@
-export { default as useSearchParams } from './hooks/useSearchParams';
+export { useOpenInfo, useSearchParams } from './hooks';
