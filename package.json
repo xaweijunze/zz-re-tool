@@ -1,7 +1,7 @@
 {
-  "name": "zz-hooks",
+  "name": "ww-zzhooks",
   "version": "0.0.1",
-  "description": "A react library developed with dumi",
+  "description": "A react hooks library",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
