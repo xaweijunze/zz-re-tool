@@ -1,4 +1,3 @@
-// useCustomHook.test.js
 import { act, renderHook } from '@testing-library/react-hooks';
 import useOpenInfo from './index';
 

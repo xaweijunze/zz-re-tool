@@ -1,4 +1,3 @@
-// useCustomHook.test.js
 import { act, renderHook } from '@testing-library/react-hooks';
 import useSearchParams from './index';
 
