@@ -1,6 +1,6 @@
 ---
 hero:
-  title: zhooks
+  title: ww-zzhooks
   description: 一个React Hooks库
   actions:
     - text: 快速开始
