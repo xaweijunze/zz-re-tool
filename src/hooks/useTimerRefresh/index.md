@@ -10,7 +10,7 @@ import { useTimerRefresh } from 'ww-zzhooks';
 function App() {
   const [result, setResult] = useState(0);
   const double = useCallback(
-    () => setResult((result) => result++),
+    () => setResult((result) => ++result),
     [setResult],
   );
   useTimerRefresh({

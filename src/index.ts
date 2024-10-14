@@ -1,1 +1,6 @@
-export { useAutoRefresh, useOpenInfo, useSearchParams } from './hooks';
+export {
+  useAutoRefresh,
+  useOpenInfo,
+  useSearchParams,
+  useTimerRefresh,
+} from './hooks';

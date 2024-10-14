@@ -1,6 +1,6 @@
 {
   "name": "ww-zzhooks",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A react hooks library",
   "license": "MIT",
   "module": "dist/index.js",
@@ -22,7 +22,8 @@
     "prepublishOnly": "father doctor && npm run build",
     "start": "npm run dev",
     "test": "jest",
-    "npmLogin": "npm login --registry=https://registry.npmjs.org/"
+    "npmLogin": "npm login --registry=https://registry.npmjs.org/",
+    "npmPublish": "npm publish --registry=https://registry.npmjs.org/"
   },
   "commitlint": {
     "extends": [
