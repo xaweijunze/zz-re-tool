@@ -15,7 +15,7 @@ yarn add ww-zzhooks
 ```js
 // src/App.js
 import React from 'react'
-import { useSearchParams } from "ww-zzhooks";
+import { useSearchParams } from 'ww-zzhooks';
 function App() {
   const [params, actions] = useSearchParams({ date: new Date().toString() })
   
