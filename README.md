@@ -1,40 +1,34 @@
-# zz-hooks
+# 快速开始
 
-[![NPM version](https://img.shields.io/npm/v/zz-hooks.svg?style=flat)](https://npmjs.org/package/zz-hooks)
-[![NPM downloads](http://img.shields.io/npm/dm/zz-hooks.svg?style=flat)](https://npmjs.org/package/zz-hooks)
+## 快速入门
 
-A react library developed with dumi
-
-## Usage
-
-TODO
-
-## Options
-
-TODO
-
-## Development
+首先用你喜欢的软件包管理工具来安装 ww-zzhooks：
 
 ```bash
-# install dependencies
-$ pnpm install
-
-# develop library by docs demo
-$ pnpm start
-
-# build library source code
-$ pnpm run build
-
-# build library source code in watch mode
-$ pnpm run build:watch
-
-# build docs
-$ pnpm run docs:build
-
-# check your project for potential problems
-$ pnpm run doctor
+npm install ww-zzhooks
+# 或
+yarn add ww-zzhooks
 ```
 
-## LICENSE
+使用：
 
-MIT
+```js
+// src/App.js
+import React from 'react'
+import { useSearchParams } from 'ww-zzhooks';
+function App() {
+  const [params, actions] = useSearchParams({ date: new Date().toString() })
+  
+  return (
+    <div >
+        <button onClick={handleOnclick}>更新时间</button>
+        {params?.date}
+    </div>
+  );
+  function handleOnclick() {
+    const newDate = new Date().toString()
+    actions.set({date:newDate.toString()})
+  }
+}
+export default App;
+```
