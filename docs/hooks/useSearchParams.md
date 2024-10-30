@@ -1,5 +1,5 @@
 ---
-nav: Hooks
+nav: hooks
 order: 5
 title: useSearchParams
 mobile: false
