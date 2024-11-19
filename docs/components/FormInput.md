@@ -1,5 +1,5 @@
 ---
-nav: 组件
+nav: component
 order: 5
 title: FormInput
 mobile: false

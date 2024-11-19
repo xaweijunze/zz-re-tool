@@ -1,5 +1,5 @@
 ---
-nav: 工具函数
+nav: utils
 order: 5
 title: tryExecute
 mobile: false

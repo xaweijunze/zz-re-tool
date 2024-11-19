@@ -1,5 +1,5 @@
 ---
-nav: 类
+nav: class
 order: 6
 title: Cache
 mobile: false
