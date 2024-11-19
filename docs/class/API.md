@@ -1,5 +1,5 @@
 ---
-nav: class
+nav: 类
 order: 6
 title: API
 mobile: false
@@ -12,7 +12,7 @@ Axios封装类，旨在简化Axios配置.
 
 ```jsx
 import React, { useCallback, useState } from "react";
-import { API } from "ww-zzhooks";
+import { API } from "zz-re-tool";
 
 const fetchNewsUrl = '/web_feed/getHotModuleList'
 const api = new API('https://i.news.qq.com');

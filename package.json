@@ -1,7 +1,7 @@
 {
-  "name": "ww-zzhooks",
-  "version": "0.0.9",
-  "description": "A react hooks library",
+  "name": "zz-re-tool",
+  "version": "0.0.1",
+  "description": "A react library",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -48,6 +48,7 @@
     ]
   },
   "dependencies": {
+    "antd": "^5.22.1",
     "axios": "^1.7.7",
     "lodash": "^4.17.21"
   },

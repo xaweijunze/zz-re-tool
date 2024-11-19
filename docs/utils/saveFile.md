@@ -1,5 +1,5 @@
 ---
-nav: utils
+nav: 工具函数
 order: 5
 title: saveFile
 mobile: false
@@ -12,7 +12,7 @@ mobile: false
 
 ```jsx
 import React, { useState } from "react";
-import { saveFile } from "ww-zzhooks";
+import { saveFile } from "zz-re-tool";
 import _ from "lodash";
 
 function App() {

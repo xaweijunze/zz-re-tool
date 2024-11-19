@@ -13,7 +13,7 @@ mobile: false
 
 ```jsx
 import React from 'react'
-import { useSearchParams } from "ww-zzhooks";
+import { useSearchParams } from "zz-re-tool";
 function App() {
   const [params, actions] = useSearchParams({ date: new Date().toString() })
   

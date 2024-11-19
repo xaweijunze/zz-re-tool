@@ -1,5 +1,5 @@
 ---
-nav: utils
+nav: 工具函数
 order: 5
 title: uniqKeyFor
 mobile: false
@@ -12,7 +12,7 @@ mobile: false
 
 ```jsx
 import React, { useState } from "react";
-import { uniqKeyFor } from "ww-zzhooks";
+import { uniqKeyFor } from "zz-re-tool";
 function App() {
   const [uniqKey, setUniqKey] = useState([uniqKeyFor()]);
   return (

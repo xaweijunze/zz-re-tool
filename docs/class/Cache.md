@@ -1,5 +1,5 @@
 ---
-nav: class
+nav: 类
 order: 6
 title: Cache
 mobile: false
@@ -12,7 +12,7 @@ mobile: false
 
 ```jsx
 import React, { useState } from "react";
-import { Cache } from "ww-zzhooks";
+import { Cache } from "zz-re-tool";
 
 const keyEnums = {
   globalUrl: 'globalUrl',

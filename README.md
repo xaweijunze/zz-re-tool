@@ -2,12 +2,12 @@
 
 ## 快速入门
 
-首先用你喜欢的软件包管理工具来安装 ww-zzhooks：
+首先用你喜欢的软件包管理工具来安装 zz-re-tool：
 
 ```bash
-npm install ww-zzhooks
+npm install zz-re-tool
 # 或
-yarn add ww-zzhooks
+yarn add zz-re-tool
 ```
 
 使用：
@@ -15,7 +15,7 @@ yarn add ww-zzhooks
 ```js
 // src/App.js
 import React from 'react'
-import { useSearchParams } from 'ww-zzhooks';
+import { useSearchParams } from 'zz-re-tool';
 function App() {
   const [params, actions] = useSearchParams({ date: new Date().toString() })
   
@@ -32,3 +32,4 @@ function App() {
 }
 export default App;
 ```
+文档地址：[zz-re-tool](http://www.forus616.cn:8300)

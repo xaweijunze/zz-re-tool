@@ -12,7 +12,7 @@ mobile: false
 
 ```jsx
 import React, { useCallback, useState } from "react";
-import { useAutoRefresh } from "ww-zzhooks";
+import { useAutoRefresh } from "zz-re-tool";
 function App() {
   const [count, setCount] = useState(0);
   const [result, setResult] = useState(0);

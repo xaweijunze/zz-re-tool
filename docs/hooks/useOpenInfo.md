@@ -12,7 +12,7 @@ mobile: false
 
 ```jsx
 import React from 'react'
-import { useOpenInfo } from "ww-zzhooks";
+import { useOpenInfo } from "zz-re-tool";
 function App() {
   const {openInfo, setOpenInfo, close} = useOpenInfo({ type: null, data: null })
   
