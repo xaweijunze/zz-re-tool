@@ -59,6 +59,8 @@
     "@babel/preset-typescript": "^7.24.1",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/axios-mock-adapter": "^1.10.4",
     "@types/jest": "^29.5.12",
@@ -93,8 +95,5 @@
   },
   "authors": [
     "xaweijunze@163.com"
-  ],
-  "jest": {
-    "testEnvironment": "jsdom"
-  }
+  ]
 }
