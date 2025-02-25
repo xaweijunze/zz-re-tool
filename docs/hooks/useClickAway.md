@@ -12,7 +12,7 @@ mobile: false
 
 ### 基础用法
 
-```jsx
+```tsx
 import React, { useState, useRef } from 'react';
 import { useClickAway } from 'zz-re-tool';
 
@@ -36,7 +36,7 @@ export default () => {
 
 ### 自定义 DOM
 
-```jsx
+```tsx
 import React, { useState } from 'react';
 import { useClickAway } from 'zz-re-tool';
 
@@ -63,7 +63,7 @@ export default () => {
 
 ### 支持多个 DOM 对象
 
-```jsx
+```tsx
 import React, { useState, useRef } from 'react';
 import { useClickAway } from 'zz-re-tool';
 
@@ -91,7 +91,7 @@ export default () => {
 
 ### 监听其它事件
 
-```jsx
+```tsx
 import React, { useState, useRef } from 'react';
 import { useClickAway } from 'zz-re-tool';
 
@@ -119,7 +119,7 @@ export default () => {
 
 ### 支持多个事件
 
-```jsx
+```tsx
 import React, { useState, useRef } from 'react';
 import { useClickAway } from 'zz-re-tool';
 
@@ -146,7 +146,7 @@ export default () => {
 ```
 ### 支持 shadow DOM
 
-```jsx
+```tsx
 import React, { useState, useRef } from 'react';
 import { useClickAway } from 'zz-re-tool';
 import root from 'react-shadow';

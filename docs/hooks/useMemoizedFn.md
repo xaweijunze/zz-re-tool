@@ -1,6 +1,6 @@
 ---
 nav: hooks
-group: 函数处理
+group: 性能优化
 title: useMemoizedFn
 mobile: false
 ---

@@ -12,7 +12,7 @@ nav:
 ### 基础用法
 
 ```tsx
-import { useBoolean, useUnmount } from 'encode-hooks';
+import { useBoolean, useUnmount } from 'zz-re-tool';
 import { message } from 'antd';
 import React from 'react';
 

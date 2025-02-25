@@ -1,6 +1,6 @@
 ---
 nav: hooks
-group: DOM操作
+group: 性能优化
 title: useThrottle
 mobile: false
 ---

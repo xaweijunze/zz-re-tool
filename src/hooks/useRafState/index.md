@@ -16,7 +16,7 @@ nav:
  * title: 基础用法
  */
 
-import { useRafState } from 'encode-hooks';
+import { useRafState } from 'zz-re-tool';
 import React, { useEffect } from 'react';
 
 export default () => {

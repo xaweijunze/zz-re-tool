@@ -1,6 +1,6 @@
 ---
 nav: hooks
-group: 状态管理
+group: 性能优化
 title: useCreation
 mobile: false
 ---
@@ -21,7 +21,7 @@ const b = useCreation(() => new Subject(), []); // 通过 factory 函数，可�
 
 ### 基础用法
 
-```jsx
+```tsx
 import React, { useState } from 'react';
 import { useCreation } from 'zz-re-tool';
 

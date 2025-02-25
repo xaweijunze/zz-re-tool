@@ -80,6 +80,7 @@
     "prettier-plugin-packagejson": "^2.2.18",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-shadow": "^20.6.0",
     "react-test-renderer": "^18.2.0",
     "stylelint": "^14.9.1"
   },

@@ -1,5 +1,7 @@
 ---
-nav: hooks
+nav: 
+  title: hooks
+  order: -1
 group: 函数处理
 title: useAutoRefresh
 mobile: false

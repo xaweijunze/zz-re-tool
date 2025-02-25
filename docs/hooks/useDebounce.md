@@ -1,45 +1,43 @@
 ---
 nav: hooks
-group: 状态管理
-title: useLatest
+group: 性能优化
+title: useDebounce
 mobile: false
 ---
 
-# useLatest
+# useDebounce
 
-返回当前最新值的 Hook，可以避免闭包问题。
+用于防抖处理的 Hook，适合在输入、滚动、窗口大小变化等频繁触发的场景下，减少不必要的渲染或操作。
 
 ## 代码演示
 
 ### 基础用法
 
-```jsx 
-import React, { useState, useEffect } from 'react';
-import { useLatest } from 'zz-re-tool';
+```tsx 
+import React, { useState } from 'react';
+import { useDebounce } from 'zz-re-tool';
 
-export default () => {
-  const [count, setCount] = useState(0);
-
-  const latestCountRef = useLatest(count);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCount(latestCountRef.current + 1);
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
+function App() {
+  const [value, setValue] = useState('');
+  const debouncedValue = useDebounce(value, { wait: 500 });
 
   return (
-    <>
-      <p>count: {count}</p>
-    </>
+    <div>
+      <input
+        type="text"
+        value={value}
+        placeholder="输入内容 (500ms 防抖)"
+        onChange={(e) => setValue(e.target.value)}
+      />
+      <p>Debounced Value: {debouncedValue}</p>
+    </div>
   );
-};
-
+}
+export default App;
 ```
 
 ## API
 
 ```typescript
-const latestValueRef = useLatest<T>(value: T): MutableRefObject<T>;
+const debouncedValue = useDebounce(value, options);
 ```
