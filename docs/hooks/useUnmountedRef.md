@@ -42,10 +42,6 @@ export default () => {
 };
 ```
 
-### 基础用法
-
-<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
-
 ## API
 
 ```typescript

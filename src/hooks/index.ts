@@ -20,7 +20,6 @@ export { default as useEventTarget } from './useEventTarget';
 export { default as useGetState } from './useGetState';
 export { default as useHover } from './useHover';
 export { default as useLatest } from './useLatest';
-export { default as useLongPress } from './useLongPress';
 export { default as useMap } from './useMap';
 export { default as useMouse } from './useMouse';
 export { default as useMount } from './useMount';

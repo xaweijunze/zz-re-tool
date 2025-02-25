@@ -22,7 +22,7 @@ class API {
     this.axiosInstance.interceptors.response.use(
       (response: AxiosResponse) => response.data,
       (error) => {
-        console.error('API Error:', error);
+        // console.error('API Error:', error);
         return Promise.reject(error);
       },
     );

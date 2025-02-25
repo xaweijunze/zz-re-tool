@@ -1,4 +1,4 @@
-import { renderHook, waitFor } from '@testing-library/react-hooks';
+import { renderHook, waitFor } from '@testing-library/react';
 import useMouse from '../index';
 
 describe('useMouse', () => {

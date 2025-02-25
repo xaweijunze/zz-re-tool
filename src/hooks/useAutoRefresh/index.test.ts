@@ -1,4 +1,4 @@
-import { renderHook } from '@testing-library/react-hooks';
+import { renderHook } from '@testing-library/react';
 import { useCallback, useState } from 'react';
 import useAutoRefresh from './index';
 

@@ -1,4 +1,4 @@
-import { act, renderHook } from '@testing-library/react-hooks';
+import { act, renderHook } from '@testing-library/react';
 import useOpenInfo from './index';
 
 test('useOpenInfo should setDefalutValue', () => {

@@ -1,7 +1,7 @@
 // write your test cases here
 import React from 'react';
-import { renderHook, act } from '@testing-library/react-hooks';
-import { render, fireEvent } from '@testing-library/react-hooks';
+import { renderHook, act } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import useHover from '../index';
 
 describe('useHover', () => {

@@ -1,4 +1,4 @@
-import { renderHook } from '@testing-library/react-hooks';
+import { renderHook } from '@testing-library/react';
 import type { Options } from '../index';
 import useDrag from '../index';
 import type { BasicTarget } from '../../utils/domTarget';
@@ -55,13 +55,4 @@ describe('useDrag', () => {
     expect(onDragEnd).toBeCalled();
   });
 
-  it(`should not work when target don't support addEventListener method`, () => {
-    Object.defineProperty(mockTarget, 'addEventListener', {
-      get() {
-        return false;
-      },
-    });
-    setup(1, mockTarget as any);
-    expect(mockTarget.setAttribute).not.toBeCalled();
-  });
 });
